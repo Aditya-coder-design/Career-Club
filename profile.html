@@ -6,106 +6,106 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Aclonica" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    </head>
+  <link rel="stylesheet" href="./fontawesome/css/all.css">
+ </head>
     <body>
-    <header>
         <div class="container">
-
-            <div class="row no-gutters">
-                <div class="col-lg-4 col-md-4">
-                <img src="profile pic.jpg">
+            <div class="profile-header">
+                <div class="profile-img">
+                    <img src="profile pic.jpg" alt="profile image" width="200"> 
                 </div>
-                <div class="col-lg-8 col-md-8">
-                  <div class="d-flex flex-column">
-                      <div class="p-5 bg-red  justify-content-between align-items-center">
-                          <h1 class="display text-center profile">Jyoti Agrawal</h1>
-                      </div>
-                      <div class="p-3 text-white bg-pink">
-                          MNNIT'23 | content developer at Scicomm | D2C igniters
-                          
-                      </div>
-                      <div class="d-flex flex-row text-center text-white align-items-start">
-                          <div class="p-3 bg-success font-div" data-toggle="collapse" data-target="#home">
-                              <i class="fa fa-home fa-2x d-block"></i>
-                              <span>Home</span>
-                          </div>
-                          <div class="p-3 bg-red font-div">
-                            <i class="fa fa-graduation-cap fa-2x d-block profile"></i>
-                            <span class="profile">Education</span>
-                        </div>
-                        <div class="p-3 bg-primary font-div">
-                            <i class="fa fa-folder fa-2x d-block"></i>
-                            <span>Work</span>
-                        </div>
-                        <div class="p-3 bg-warning font-div">
-                            <i class="fa fa-envelope fa-2x d-block"></i>
-                            <span>contact</span>
-                        </div>
-
-                      </div>
-                  </div> 
+                <div class="profile-nav-info">
+                    <h3 class="username">Jyoti Agrawal </h3>
+                    <div class="address">
+                        <p class="state">Uttar Pradesh</p>
+                        <span class="country">INDIA</span>
+                    </div>
                 </div>
-                 
+                <div class="profile-option">
+                    <div class="notification">
+                        <i class="fa fa-bell"></i>
+                        <span class="alert-message">5</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="main-bd">
+                <div class="left-side">
+                    <div class="profile-side">
+                        <p class="mobile-no">
+                          <i class="fa fa-phone"></i>+9170556xxxxx
+                        </p>
+                        <p class="user-mail"><i class="fa fa-envelope"></i>
+                            jyotiagrawal3011@gmain.com
+                        </p>
+                        <div class="user-bio">
+                            <h3>Bio</h3>
+                            <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum itaque atque natus expedita maxime omnis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iste, veniam sequi nemo et minus voluptates mollitia aspernatur, possimus cupiditate dolore sunt atque explicabo facere.</p>
+                        </div>
+                        <div class="profile-btn">
+                            <button class="chatbtn">
+                                <i class="fa fa-comment"></i>Chats
+                            </button>
+                            <button class="createbtn">
+                                <i class="fa fa-plus"></i>Create
+                            </button>
+                        </div>
+                        <div class="user-rating">
+                            <h3 class="rating">
+                                4.7
+                            </h3>
+                            <div class="rate">
+                                <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                </div>
+                                <span class="no-user">
+                                    <span>123</span>&nbsp; &nbsp;
+                                    reviews
+                                </span>
+ 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="nav">
+                        <ul>
+                            <li onclick="tabs(0)" class="user-post active"> Post</li>
+                            <li onclick="tabs(1)" class="user-review"> Reviews</li>
+                            <li onclick="tabs(2)" class="user-setting">Settings</li>
+                        </ul>
+                    </div>
+                    <div class="profile-body">
+                        <div class="profile-posts tab">
+                            <h1>your posts</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur aliquid vero voluptatum praesentium cumque recusandae, dolor omnis ipsa tenetur totam? Vel impedit earum aliquid nostrum laborum enim sapiente ipsam beatae id, aspernatur magni sed eligendi, ex dolor sunt ea quaerat natus tempora aliquam voluptas et incidunt facilis cupiditate! Ipsa maxime hic quae error minima sit eaque quaerat, aperiam a veniam, porro explicabo reiciendis fuga dolor? Amet, fugit! Eos, nostrum itaque?</p>
+                        </div>
+                        <div class="profile-reviews tab">
+                            <h1>your reviews</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repudiandae nulla provident quam, dicta, aperiam sint ullam sequi quisquam dolorem amet eos similique recusandae? Amet esse excepturi consectetur doloremque quidem dignissimos repudiandae, et aliquid mollitia qui quos commodi tempore laboriosam iusto sequi quasi itaque debitis similique ad voluptatum corrupti ab?</p>
+                        </div>
+                        <div class="profile-settings tab">
+                            <h1>your setting</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quisquam facere doloribus, nobis nulla modi repellat blanditiis, officia fugit ea architecto sunt quas praesentium neque at dolore voluptatem laboriosam. Consectetur, adipisci! Pariatur quia in explicabo, similique, iste maxime sunt iusto ad beatae quis, praesentium ipsam harum ipsum modi officia laudantium!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </header>
-        <div class="container">
-            <div class="collapse" id="home">
-                <div class="p-4 text-white bg-success">
-                    <h2>My Skills</h2>
-                    <p>here arec some of the skills on which I have make some of my projects</p>
-                </div>
-                <div class="cards skills">
-               <h3>HTML5</h3>
-               <div class="progress">
-                   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%;"></div>
-               </div>
-               <h3>CSS3</h3>
-               <div class="progress">
-                   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%;"></div>
-               </div>
-               <h3>BOOTSTRAP</h3>
-               <div class="progress">
-                   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%;"></div>
-               </div>
-               <h3>jQuery</h3>
-               <div class="progress">
-                   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%;"></div>
-               </div>
-               <h3>Content Writing</h3>
-               <div class="progress">
-                   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%;"></div>
-               </div>
-               <h3>SEO</h3>
-               <div class="progress">
-                   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 65%;"></div>
-                 </div>
-                </div>
-             </div>
-            </div>
-
-
-        </div>
 
 
 
-
-
-
-        
-        <div class="container">
-
-<footer class="p-4 bg-red text-center ">
-    <button class="btn ">
-        <i class="fa fa-download fa-2x d-block  profile"></i>Download
-    </button>
-</footer>
-</div>
-
-
+    
+       
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>      
+        <script src="./jquery/jquery.js"></script>
+        <script src="profile.js"></script>
     </body>
 </html>
